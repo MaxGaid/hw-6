@@ -204,6 +204,7 @@ ul {
 }
 .footer-sm {
   margin-left: 70px;
+  margin-right: 93px;
 }
 .footer-cont {
   display: flex;
@@ -683,6 +684,7 @@ ul {
   transition-property: color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
 }
 .modal-title {
   font-size: 20px;
@@ -783,4 +785,50 @@ fill: #ffffff;
  letter-spacing: 0.06em;
  font-size: 16px;
 line-height: 30px;
+}
+.footer-input {
+    width: 358px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 16px;
+  outline: none;
+  background-color: transparent;
+  color: #ffffff;
+}
+.footer-input:focus {
+  border-color: var(--accent-color-text);
+}
+.footer-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer-button {
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  cursor: pointer;
+  border: none;
+  padding: 8px 29px;
+  display: inline-block;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  margin-left: 10px;
+  position: relative;
+  top: 1px;
+}
+.footer-button:hover,
+.footer-button:focus {
+  background: #188ce8;
+}
+.footer-form-icon {
+  margin-left: 12px;
+  position: relative;
+  top: 5px;
 }
